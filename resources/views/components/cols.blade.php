@@ -44,5 +44,9 @@
             <span style="width: 6px"></span>
         @endif
         <span>{{ $column->title }}</span>
+
+        @if($column->searchable)
+            <i class="fa-solid fa-magnifying-glass"></i>
+        @endif
     </div>
 </th>
