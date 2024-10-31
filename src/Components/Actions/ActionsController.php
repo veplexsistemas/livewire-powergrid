@@ -18,6 +18,7 @@ class ActionsController
     ) {
     }
 
+    
     public function execute(array $actions, null|object|array $row = null): Collection
     {
         $actions = collect($actions);
